@@ -28,3 +28,4 @@ C:\Users\comac\huntil_app\HuntILFrontEnd\obj\Debug\net8.0\refint\HuntILFrontEnd.
 C:\Users\comac\huntil_app\HuntILFrontEnd\obj\Debug\net8.0\HuntILFrontEnd.pdb
 C:\Users\comac\huntil_app\HuntILFrontEnd\obj\Debug\net8.0\HuntILFrontEnd.genruntimeconfig.cache
 C:\Users\comac\huntil_app\HuntILFrontEnd\obj\Debug\net8.0\ref\HuntILFrontEnd.dll
+C:\Users\comac\huntil_app\HuntILFrontEnd\obj\Debug\net8.0\HuntILFrontEnd.sourcelink.json
