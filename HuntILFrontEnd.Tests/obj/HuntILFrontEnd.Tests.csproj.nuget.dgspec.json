@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\HuntILFrontEnd.csproj": {}
+    "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\HuntILFrontEnd.Tests\\HuntILFrontEnd.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\HuntILFrontEnd.csproj": {
+    "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\HuntILFrontEnd.Tests\\HuntILFrontEnd.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\HuntILFrontEnd.csproj",
-        "projectName": "HuntILFrontEnd",
-        "projectPath": "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\HuntILFrontEnd.csproj",
+        "projectUniqueName": "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\HuntILFrontEnd.Tests\\HuntILFrontEnd.Tests.csproj",
+        "projectName": "HuntILFrontEnd.Tests",
+        "projectPath": "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\HuntILFrontEnd.Tests\\HuntILFrontEnd.Tests.csproj",
         "packagesPath": "C:\\Users\\comac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\obj\\",
+        "outputPath": "C:\\Users\\comac\\huntil_app\\HuntILFrontEnd\\HuntILFrontEnd.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\comac\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,15 +42,23 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.12.0, )"
+              "version": "[17.6.0, )"
             },
-            "Moq": {
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[4.20.72, )"
+              "version": "[6.0.0, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.9.3, )"
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -65,9 +73,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
